@@ -5,11 +5,32 @@
   <title>Simulador de menú de Comida rápida</title>
 </head>
 <body>
-  <h1>Simulador de Pedido de Comida Rápida</h1>
-  <p>
-    Este simulador permite al usuario armar su pedido desde un menú de comida rápida, eligiendo productos por medio de cuadros de diálogo. Se calcula el total del pedido y se muestra un resumen para confirmar la compra.
-  </p>
-  <p>Lorenzo Píccolo</p>
-  <script src="main.js"></script>
+  <header>
+    <h1>Simulador de Pedido de Comida Rápida</h1>
+    <p>Armá tu pedido eligiendo productos del menú y gestioná tu carrito antes de confirmar la compra.</p>
+  </header>
+
+  <main>
+    <section id="menu-section">
+      <h2>Menú</h2>
+      <div id="menu-container"></div>
+    </section>
+
+    <section id="carrito-section">
+      <h2>Carrito</h2>
+      <div id="carrito-container"></div>
+      <div id="total-container"></div>
+      <div id="acciones-carrito">
+        <button id="confirmar-btn">Confirmar pedido</button>
+        <button id="vaciar-btn">Vaciar carrito</button>
+      </div>
+      <div id="mensaje"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hecho por Lorenzo Píccolo</p>
+  </footer>
 </body>
+<script src="js/main.js"></script>
 </html>
