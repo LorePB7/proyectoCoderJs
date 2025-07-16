@@ -82,10 +82,9 @@ function guardarCarrito() {
   localStorage.setItem("carrito", JSON.stringify(carrito));
 }
 
-// Muestra un mensaje temporal en pantalla
+// Muestra un mensaje en pantalla
 function mostrarMensaje(msg) {
   mensajeDiv.textContent = msg;
-  setTimeout(() => mensajeDiv.textContent = "", 2000);
 }
 
 // Cuando el usuario confirma la compra
@@ -105,7 +104,6 @@ vaciarBtn.addEventListener("click", () => {
   carrito = [];
   guardarCarrito();
   renderCarrito();
-  mostrarMensaje("Carrito vaciado.");
 });
 
 // Al cargar la página, muestro el menú y el carrito
