@@ -1,0 +1,9 @@
+-2 archivos JS
+-JSON y/o API con fetch
+-Arrays de objetos literales a json/mockapi
+-Estructura de archivos y carpetas
+-Todo con DOM y Eventos
+-Circuito de la información completo
+-Incluir una librería JS de las vistas
+-NADA de prompt, confirm o alert
+-try-catch-finally

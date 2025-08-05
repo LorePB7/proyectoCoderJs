@@ -2,13 +2,16 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Simulador de menú de Comida rápida</title>
+  <title>Simulador de Pedido - Comida Rápida</title>
   <link rel="stylesheet" href="styles/styles.css">
+  <!-- SweetAlert2 CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
   <header>
     <h1>Simulador de Pedido de Comida Rápida</h1>
     <p>Armá tu pedido eligiendo productos del menú y gestioná tu carrito antes de confirmar la compra.</p>
+    <button id="historial-btn" class="historial-btn">📋 Ver Historial de Pedidos</button>
   </header>
 
   <main>
@@ -33,5 +36,6 @@
     <p>Hecho por Lorenzo Píccolo</p>
   </footer>
 </body>
+<script type="module" src="js/utils.js"></script>
 <script src="js/main.js"></script>
 </html>

@@ -1,0 +1,44 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Hamburguesa Clásica",
+      "descripcion": "Hamburguesa de carne con lechuga, tomate, cebolla y queso cheddar",
+      "precio": 8000,
+      "imagen": "🍔",
+      "categoria": "hamburguesas"
+    },
+    {
+      "id": 2,
+      "nombre": "Papas Fritas",
+      "descripcion": "Papas fritas crujientes con sal marina",
+      "precio": 3000,
+      "imagen": "🍟",
+      "categoria": "acompañamientos"
+    },
+    {
+      "id": 3,
+      "nombre": "Gaseosa",
+      "descripcion": "Bebida gaseosa de 500ml a elección (Coca-Cola, Sprite, Fanta)",
+      "precio": 2500,
+      "imagen": "🥤",
+      "categoria": "bebidas"
+    },
+    {
+      "id": 4,
+      "nombre": "Postre Helado",
+      "descripcion": "Helado de vainilla con salsa de chocolate y granas",
+      "precio": 2000,
+      "imagen": "🍦",
+      "categoria": "postres"
+    },
+    {
+      "id": 5,
+      "nombre": "Combo Completo",
+      "descripcion": "Hamburguesa + Papas + Bebida + Postre (Ahorrás $1500)",
+      "precio": 12000,
+      "imagen": "🍽️",
+      "categoria": "combos"
+    }
+  ]
+} 
